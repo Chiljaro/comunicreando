@@ -1,0 +1,39 @@
+$cssCore: false;
+$devMode: false;
+$bp-menu: l;
+$bp-mobil: m;
+$color1: #4E58A6;
+@import "EDgrid/ed-grid";
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin      : 0px !important;
+  font-family : sans-serif;
+}
+
+img {
+  max-width : 100%;
+  height    : auto;
+}
+
+a {
+  text-decoration : none;
+
+  &:hover { text-decoration : underline }
+}
+
+
+
+
+
+
+
+@import "components/header";
+@import "components/menu";
+@import "components/footer";
+@import "components/main";
