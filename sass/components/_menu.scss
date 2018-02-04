@@ -2,7 +2,6 @@
 	display: flex;
 	align-items: center;
     justify-content: flex-start;
-    background: #FFF;
 
     @include from(m){
 		justify-content: center;
@@ -23,14 +22,14 @@
 
 	.main-menu__item, .second-menu__item{
 		text-transform: uppercase;
-		font-family: 'Nunito Sans', sans-serif;
+		font-family: 'Nunito Sans', sans-serif !important;
 	}
 
 	.main-menu__link{
 		color: (#4C4C4C);
 		font-size: 11pt;
     	margin: 5px 0px;
-    	border-right: 3px solid #4C4C4C;
+    	border-right: 2px solid #4C4C4C;
 
 		&.active,
 		&:hover {

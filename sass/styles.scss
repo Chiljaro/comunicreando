@@ -4,6 +4,7 @@ $bp-menu: l;
 $bp-mobil: m;
 $color1: #4E58A6;
 @import "EDgrid/ed-grid";
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 
 *,
 *:before,
@@ -12,8 +13,8 @@ $color1: #4E58A6;
 }
 
 body {
-  margin      : 0px !important;
-  font-family : sans-serif;
+  margin: 0px !important;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 img {
@@ -27,8 +28,46 @@ a {
   &:hover { text-decoration : underline }
 }
 
+.text-centrado{
+  text-align: center;
+}
 
+.text-justify{
+  text-align: justify;
+}
 
+.titulo{
+  color: #fff;
+}
+
+.subtitulo{
+  color: #000;
+}
+
+.parrafo{
+  font-size: 18pt;
+  color: #fff;
+}
+
+.parrafoInfo{
+  font-size: 16pt;
+  color: #000;
+  margin-top: 10px;
+}
+
+.lista{
+  text-align: justify;
+}
+
+.boton1 {
+  @include edgridButton(#44a22b, white, radius)
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h4{
+  color: #2a2b2f;
+}
 
 
 
